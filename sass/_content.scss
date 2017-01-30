@@ -1,7 +1,32 @@
 
 /* imported */
+.maininput{
+	border: 5px solid brown;
+	width: 100%;
 
 
+}
+
+.maininput2{
+	border: 10px solid green;
+}
+
+
+nav{
+	@extend .maininput2;
+	background-color: darkgray;
+
+
+}
+
+
+
+	footer {
+	width: 100%;
+  height: $footerHeight;
+	background-color: gray;
+
+}
 
 h1{
 	font-family: impact;
@@ -10,54 +35,34 @@ h1{
 }
 
 
-p {
-
-
-color: $primaryLight;
-
-}
-
-
-.maininput{
-	border: 5px solid brown;
-	width: 100%;
-
-
-}
-
 
 .hero{
-
+ ;
 @extend .maininput;
 
-	background-image: url(../img/bird.jpg);
-	height: 650px;
-	background-position: 25% 25%;
-
+background-color: gray;
+height: 650px;
+background-position: 25% 25%;
+@include border-radius(5px)
 
 }
-
-
-header ul{
-display:inline-block;
-}
-
-
-
-.hero p {
-float: right;
+  p {
+text-align: center;
+padding-top: 50px;
+padding-left: 400px;
 max-width: 300px;
-
+color: $primaryDark;
 @include skewup(7deg);
-
+@include border-radius (5px)
 }
+
 
 .hero2{
 
 	@extend .maininput;
 
-	background-image: url(../img/flying.jpg);
-	height:400px;
-	width: 100%;
-	
+background-color: darkgray;
+height:400px;
+width: 100%;
+@include border-radius(20px);
 }

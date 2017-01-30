@@ -5,7 +5,7 @@ $primaryColour: #C1B129;
 $primaryLight: #B3A108;
 $primaryDark: #362700;
 $accentColour: #ffff00;
-$footerHeight: 1.2em;
+$footerHeight: 5.0em;
 $headerHeight: 1.2em;
 $navbarHeight: 1.2em;
 
@@ -21,4 +21,14 @@ $navbarHeight: 1.2em;
 @mixin thickborder() {
 border: 10px solid $primaryDark;
 
+}
+
+
+
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
 }

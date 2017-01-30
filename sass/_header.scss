@@ -1,16 +1,45 @@
 
 /*imported header*/
+
+
+
+
+
+nav {
+
+	ul{
+		list-style: none;
+		text-align: center;
+		margin: 0px;
+
+
+	}
+	h1{
+		display: inline-block;
+		padding-left: 65px;
+
+	}
+
+	li {
+		display: inline;
+		padding: 150px;
+	}
+
+	a{
+		text-decoration: none;
+
+
+
+}
+
+}
+
+
+
 h1 {
 letter-spacing: 2.5px;
 
 
 	@include skewup(7deg);
 
-}
-
-
-ul{
-	list-style: none;
-	color:$accentColour;
-	display: inline;	
 }
