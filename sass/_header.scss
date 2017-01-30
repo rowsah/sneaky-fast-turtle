@@ -1,0 +1,16 @@
+
+/*imported header*/
+h1 {
+letter-spacing: 2.5px;
+
+
+	@include skewup(7deg);
+
+}
+
+
+ul{
+	list-style: none;
+	color:$accentColour;
+	display: inline;	
+}

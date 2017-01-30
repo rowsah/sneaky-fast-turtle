@@ -1,0 +1,63 @@
+
+/* imported */
+
+
+
+h1{
+	font-family: impact;
+	font-size: 40px;
+	color: $primaryDark;
+}
+
+
+p {
+
+
+color: $primaryLight;
+
+}
+
+
+.maininput{
+	border: 5px solid brown;
+	width: 100%;
+
+
+}
+
+
+.hero{
+
+@extend .maininput;
+
+	background-image: url(../img/bird.jpg);
+	height: 650px;
+	background-position: 25% 25%;
+
+
+}
+
+
+header ul{
+display:inline-block;
+}
+
+
+
+.hero p {
+float: right;
+max-width: 300px;
+
+@include skewup(7deg);
+
+}
+
+.hero2{
+
+	@extend .maininput;
+
+	background-image: url(../img/flying.jpg);
+	height:400px;
+	width: 100%;
+	
+}

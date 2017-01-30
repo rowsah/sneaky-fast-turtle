@@ -1,0 +1,24 @@
+/* Imported wrapper */
+
+body {
+
+margin: 0px;
+padding: 0px;
+
+}
+
+
+main {
+  // background-image: url(../img/view.jpg);
+  background-color: $primaryLight;
+  text-align: center;
+  width: 100%;
+  height:300px;
+  background-position: 50% 75%;
+    p{
+      color: black;
+      font-family: impact;
+    }
+
+    @include thickborder();
+}
